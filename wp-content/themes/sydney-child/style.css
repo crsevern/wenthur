@@ -1,0 +1,814 @@
+/*
+Theme Name: Sydney Child
+Theme URI: http://athemes.com/theme/sydney
+Author: aThemes
+Author URI: http://athemes.com
+Template: sydney
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: sydney
+*/
+
+.no-padding {
+  padding: 0 !important;
+}
+
+.btn-general {
+  background-color: #b98d2f;
+  color: #fff;
+  font-size: 28px;
+  border: 0;
+  padding: 10px 50px;
+  border-radius: 5px;
+}
+
+.btn-general:hover {
+  color: #fff;
+}
+
+.btn-general:focus {
+  outline: 0;
+}
+
+.site-header {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#mainnav.mainnav .menu-main-menu-container .menu .menu-item a {
+  font-size: 18px;
+}
+
+#mainnav.mainnav .menu-main-menu-container .menu .current-menu-item a {
+  color: #b98d2f !important;
+  padding-bottom: 5px;
+  border-bottom: 4px solid #b98d2f;
+}
+
+#mainnav.mainnav .menu-main-menu-container .menu .menu-item a:hover {
+  color: #b98d2f !important;
+}
+
+h1.small-margin,
+h2.small-margin,
+h3.small-margin,
+h4.small-margin,
+h5.small-margin,
+h6.small-margin {
+  margin: 0 0 5px;
+}
+
+.sydney-hero-area .header-image .overlay {
+  opacity: 0.5;
+}
+
+.sow-headline-container {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 350px;
+}
+
+.sow-headline-container .sow-headline {
+  font-size: 72px;
+}
+
+.sow-headline-container .sow-sub-headline {
+  font-size: 40px;
+}
+
+.service-slogan-primary-image .sow-image-container img.so-widget-image {
+  height: 589px;
+  width: auto;
+  box-shadow: 5px 5px 10px black;
+}
+
+.service-slogan-primary-content .service-slogan-primary-text .widget-title {
+  margin-bottom: 35px;
+  text-align: left;
+  padding-bottom: 55px;
+  font-size: 58px;
+}
+
+.panel-grid-cell .service-slogan-primary-text .widget-title::after {
+  height: 8px;
+  background-color: #fff;
+  width: 300px;
+  left: 25px;
+}
+
+.service-slogan-primary-content .service-slogan-primary-text .textwidget {
+  font-size: 28px;
+}
+
+.service-slogan-primary-content .service-slogan-primary-action .roll-promobox {
+  padding: 0;
+}
+
+.service-slogan-primary-content .service-slogan-primary-action .roll-promobox.aside-style .promo-controls {
+  text-align: left;
+}
+
+.service-slogan-primary-content .service-slogan-primary-action .roll-button.border {
+  border: 2px solid #fff;
+  color: #fff;
+  font-size: 26px;
+  text-transform: uppercase;
+  padding: 26px 72px;
+  border-radius: 6px;
+}
+
+.service-slogan-primary-content .service-slogan-primary-action .roll-button.border:hover {
+  background-color: #fff;
+  color: #b98d2f;
+}
+
+.widget_sydney_child_facts .roll-counter .fact-icon {
+  height: 100px;
+}
+
+.widget_sydney_child_facts .roll-counter .fact-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.widget_sydney_child_facts .roll-counter .fact-text .numb-count {
+  font-family: 'Avenir-Heavy' !important;
+  font-size: 98px;
+  margin-right: 20px;
+}
+
+.widget_sydney_child_facts .roll-counter .fact-text .fact-name {
+  text-align: left;
+  margin-left: 10px;
+  font-size: 24px;
+}
+
+.widget_sydney_child_services .services-container .service.fullwidth {
+  margin-bottom: 0;
+}
+
+.widget_sydney_child_services .services-container .service.fullwidth .service-item.item {
+  position: relative;
+  width: 100%;
+  height: 500px;
+}
+
+.widget_sydney_child_services .services-container .service.fullwidth .service-item.item .service-pop-wrap {
+  position: absolute;
+  z-index: 1000;
+  top: 0;
+  height: 100%;
+  width: 226px;
+  display: flex;
+  color: #fff;
+  transition: width 1s;
+}
+
+.widget_sydney_child_services .services-container .service.fullwidth:nth-child(odd) .service-item.item .service-pop-wrap {
+  left: 0;
+}
+
+.widget_sydney_child_services .services-container .service.fullwidth:nth-child(even) .service-item.item .service-pop-wrap {
+  right: 0;
+}
+
+.widget_sydney_child_services .services-container .service.fullwidth .service-item.item:hover .service-pop-wrap {
+  width: 50%;
+}
+
+.widget_sydney_child_services .services-container .service.fullwidth .service-item.item .service-pop-wrap .service-pop {
+  flex: 0 0 calc(100% - 90px);
+  width: calc(100% - 90px);
+}
+.widget_sydney_child_services .services-container .service.fullwidth:nth-child(odd) .service-item.item .service-pop-wrap .service-pop {
+  background-color: #dc3b41;
+}
+.widget_sydney_child_services .services-container .service.fullwidth:nth-child(even) .service-item.item .service-pop-wrap .service-pop {
+  background-color: #001688;
+}
+
+.widget_sydney_child_services .services-container .service.fullwidth .service-item.item:hover .service-pop-wrap .service-pop {
+  padding: 80px;
+}
+
+.widget_sydney_child_services .services-container .service.fullwidth .service-item.item .service-pop-wrap .service-pop-edge {
+  width: 0;
+  height: 0;
+}
+
+.widget_sydney_child_services .services-container .service.fullwidth:nth-child(odd) .service-item.item .service-pop-wrap .service-pop-edge {
+  border-bottom: 500px solid transparent;
+  border-left: 90px solid #dc3b41;
+}
+
+.widget_sydney_child_services .services-container .service.fullwidth:nth-child(even) .service-item.item .service-pop-wrap .service-pop-edge {
+  border-top: 500px solid transparent;
+  border-right: 90px solid #001688;
+}
+
+.widget_sydney_child_services .services-container .service.fullwidth .service-item.item .service-pop-wrap .service-pop .service-title {
+  text-align: center;
+  width: 500px;
+  font-size: 40px;
+  transform-origin: top left;
+  font-family: 'Baskerville' !important;
+}
+
+.widget_sydney_child_services .services-container .service.fullwidth:nth-child(odd) .service-item.item .service-pop-wrap .service-pop .service-title {
+  transform: translate(40px, 500px) rotate(-90deg);
+}
+
+.widget_sydney_child_services .services-container .service.fullwidth:nth-child(even) .service-item.item .service-pop-wrap .service-pop .service-title {
+  transform: translate(20px, 500px) rotate(-90deg);
+}
+
+.widget_sydney_child_services .services-container .service.fullwidth .service-item.item .service-pop-wrap .service-pop .service-content {
+  display: none;
+  font-size: 24px;
+}
+
+.widget_sydney_child_services .services-container .service.fullwidth .service-item.item:hover .service-pop-wrap .service-pop .service-title {
+  text-align: left;
+  width: 100%;
+  transform: none;
+}
+
+.widget_sydney_child_services .services-container .service.fullwidth .service-item.item:hover .service-pop-wrap .service-pop .service-content {
+  display: block;
+}
+
+.widget_sydney_child_services .services-container .service.fullwidth .service-item.item .service-thumbnail {
+  position: absolute;
+  z-index: 999;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
+
+.widget_sydney_child_services_with_details .services-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.widget_sydney_child_services_with_details .services-container .service {
+  margin-bottom: 0;
+  flex: 1 0 50%;
+  width: 50%;
+  height: 540px;
+}
+
+.widget_sydney_child_services_with_details .services-container .service .service-item.item {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.widget_sydney_child_services_with_details .services-container .service .service-item.item .service-pop-wrap {
+  position: absolute;
+  z-index: 1000;
+  bottom: 20px;
+  height: 70px;
+  width: auto;
+  display: flex;
+  color: #fff;
+}
+
+.widget_sydney_child_services_with_details .services-container .service .service-item.item:hover .service-pop-wrap {
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.widget_sydney_child_services_with_details .services-container .service .service-item.item .service-pop-wrap .service-pop {
+  flex: 0 0 calc(100% - 20px);
+  width: calc(100% - 20px);
+  background-color: #b98d2f;
+  padding: 0 50px;
+}
+
+.widget_sydney_child_services_with_details .services-container .service .service-item.item:hover .service-pop-wrap .service-pop {
+  padding: 80px 100px;
+  flex: 1;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: relative;
+}
+
+.widget_sydney_child_services_with_details .services-container .service .service-item.item:hover .service-pop-wrap .service-pop-edge {
+  display: none;
+}
+
+.widget_sydney_child_services_with_details .services-container .service .service-item.item .service-pop-wrap .service-pop-edge {
+  width: 0;
+  height: 0;
+  border-bottom: 70px solid transparent;
+  border-left: 20px solid #b98d2f;
+}
+
+.widget_sydney_child_services_with_details .services-container .service .service-item.item .service-pop-wrap .service-pop .service-title {
+  font-size: 38px;
+}
+
+.widget_sydney_child_services_with_details .services-container .service .service-item.item .service-pop-wrap .service-pop .service-content {
+  display: none;
+  font-size: 28px;
+}
+
+.widget_sydney_child_services_with_details .services-container .service .service-item.item:hover .service-pop-wrap .service-pop .service-title {
+  text-align: center;
+  color: #b98d2f;
+  margin-bottom: 20px;
+}
+
+.widget_sydney_child_services_with_details .services-container .service .service-item.item:hover .service-pop-wrap .service-pop .service-content {
+  display: block;
+}
+
+.widget_sydney_child_services_with_details .services-container .service .service-item.item:hover .service-pop-wrap .service-pop .service-bottom-decorator {
+  width: 33.3333%;
+  height: 3px;
+  margin: 0 auto;
+  background-color: #b98d2f;
+  position: absolute;
+  left: 33.3333%;
+  bottom: 80px;
+}
+
+.widget_sydney_child_services_with_details .services-container .service .service-item.item .service-thumbnail {
+  position: absolute;
+  z-index: 999;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
+
+.widget_sydney_child_portfolio_with_details .roll-project.fullwidth .project-item {
+  width: 100%;
+  float: none;
+  position: relative;
+  max-height: 600px;
+  overflow: hidden;
+}
+
+.widget_sydney_child_portfolio .roll-project.fullwidth .project-item .project-pop-wrap .project-pop,
+.widget_sydney_child_portfolio_with_details .roll-project.fullwidth .project-item .project-pop-wrap .project-pop {
+  background-color: #000;
+} 
+
+.widget_sydney_child_portfolio .roll-project.fullwidth .project-item img {
+  width: 100%;
+  height: auto;
+}
+
+.widget_sydney_child_portfolio_with_details .roll-project.fullwidth .project-item {
+  min-height: 300px;
+  display: flex;
+  align-items: stretch;
+  border: 1px solid #e6e6e6;
+  flex-wrap: wrap;
+}
+
+.widget_sydney_child_portfolio_with_details .roll-project.fullwidth .project-item .project-pop-wrap {
+  width: 350px;
+}
+
+.widget_sydney_child_portfolio_with_details .roll-project.fullwidth .project-item .thumbnail-container {
+  flex: 0 0 350px;
+  height: auto;
+  display: block;
+}
+
+.widget_sydney_child_portfolio_with_details .roll-project.fullwidth .project-item .thumbnail-container div {
+  background-position: center center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.widget_sydney_child_portfolio_with_details .roll-project.fullwidth .project-item .project-content {
+  flex: 1 0 416px;
+  padding: 40px;
+}
+
+.widget_sydney_child_portfolio_with_details .roll-project.fullwidth .project-item .project-content h5 {
+  font-size: 38px;
+}
+
+.widget_sydney_child_portfolio_with_details .roll-project.fullwidth .project-item .project-content p {
+  font-size: 24px;
+}
+
+.widget_sydney_child_portfolio_with_details .roll-project {
+  padding-bottom: 0;
+}
+
+.panel-grid-cell .widget-title::after {
+  height: 0;
+}
+
+.widget_sydney_child_employees .widget-title {
+  font-size: 44px;
+}
+
+.widget_sydney_child_employees .widget-title,
+.widget_sydney_child_employees .roll-team .team-item .team-content .name,
+.widget_sydney_child_employees .roll-team .team-item .team-content .name a,
+.widget_sydney_child_employees .roll-team .team-item .team-inner .pop-overlay .name a,
+.widget_sydney_child_employees .roll-team .team-item .team-inner .pop-overlay .name a:hover {
+  color: #b98d2f;
+}
+
+.widget_sydney_child_employees .roll-team .team-item .team-content .name,
+.widget_sydney_child_employees .roll-team .team-item .team-content .name a,
+.our-team-page-row .roll-team .team-item .team-inner .pop-overlay .team-pop .team-info .name,
+.our-team-page-row .roll-team .team-item .team-inner .pop-overlay .team-pop .team-info .name a {
+  font-size: 28px;
+  text-transform: uppercase;
+  font-family: 'Baskerville' !important;
+}
+
+.widget_sydney_child_employees .roll-team .team-item .team-content .pos,
+.our-team-page-row .roll-team .team-item .team-inner .pop-overlay .team-pop .team-info .pos {
+  font-family: 'Baskerville-Italic' !important;
+  font-size: 24px;
+}
+
+.widget_sydney_child_employees .roll-team .team-item .team-content .excerpt,
+.our-team-page-row .roll-team .team-item .team-inner .pop-overlay .team-pop .team-info .excerpt {
+  font-size: 20px;
+}
+
+.widget_sydney_child_employees .roll-team {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
+  align-content: flex-start;
+}
+
+.widget_sydney_child_employees .roll-team .team-item {
+  width: 400px;
+  margin: 20px;
+}
+
+.widget_sydney_child_employees .roll-team .team-item .team-inner .pop-overlay .team-pop,
+.widget_sydney_child_employees .roll-team .team-item .team-inner .avatar img {
+  border-radius: 50%;
+  border: 1px solid #b98d2f;
+}
+
+.widget_sydney_child_employees .roll-team .team-item .team-inner .pop-overlay,
+.widget_sydney_child_employees .roll-team .team-item .team-inner .avatar img {
+  width: 350px;
+  height: 350px;
+}
+
+.widget_sydney_child_employees .roll-team .team-item .team-inner .pop-overlay {
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.widget_sydney_child_employees .roll-team .team-item .team-inner .pop-overlay .team-pop {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.widget_sydney_child_employees .roll-team .team-item .team-inner .pop-overlay .team-pop .team-info {
+  top: 50%;
+  transform: translate(0, -50%);
+}
+
+.widget_sydney_child_employees .roll-team .team-item .team-inner .pop-overlay .team-pop .team-info .name {
+  padding: 0;
+  color: #B98D2F;
+  font-size: 28px;
+}
+
+.widget_sydney_child_employees .roll-team .team-item .team-inner .pop-overlay .team-pop .team-info .pos,
+.widget_sydney_child_employees .roll-team .team-item .team-inner .pop-overlay .team-pop .team-info .excerpt {
+  display: none;
+}
+
+.footer-widgets {
+  padding: 30px 0;
+}
+
+.footer-widgets .sidebar-column {
+  width: 100%;
+  text-align: center;
+}
+
+.footer-widgets .sidebar-column .widget_sow-image {
+  margin-bottom: 10px;
+}
+
+.footer-widgets .sidebar-column .widget_sow-image img {
+  height: 100px;
+}
+
+.footer-widgets .sidebar-column .footer-column-company-name {
+  font-size: 32px;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.footer-widgets .sidebar-column .sydney_contact_info_widget > div,
+.footer-widgets .sidebar-column .sydney_contact_info_widget > div a {
+  margin-bottom: 0;
+  color: #fff;
+  font-size: 22px;
+}
+
+.site-footer {
+  background-color: #b98d2f !important;
+  text-align: center;
+}
+
+.site-footer a,
+.site-footer span {
+  color: #fff !important;
+  font-size: 20px;
+}
+
+/*
+  Our Team Page
+*/
+.our-team-page-row .roll-team .team-item {
+  margin: 0;
+  width: 33.33333333333%;
+}
+
+.our-team-page-row .roll-team .team-item .team-content {
+  display: none;
+}
+
+.our-team-page-row .roll-team .team-item .team-inner {
+  padding: 0;
+}
+
+.our-team-page-row .roll-team .team-item .team-inner .pop-overlay,
+.our-team-page-row .roll-team .team-item .team-inner .avatar img {
+  width: 100%;
+  height: 100%;
+}
+
+.our-team-page-row .roll-team .team-item .team-inner .pop-overlay .team-pop,
+.our-team-page-row .roll-team .team-item .team-inner .avatar img {
+  border-radius: 0;
+  border: 0;
+}
+
+.our-team-page-row .roll-team .team-item .team-inner .pop-overlay .team-pop .team-info,
+.our-team-page-row .roll-team .team-item .team-inner .pop-overlay .team-pop .team-info .name {
+  padding: 10px;
+}
+
+
+
+.our-team-page-row .roll-team .team-item .team-inner .pop-overlay .team-pop .team-info .pos,
+.our-team-page-row .roll-team .team-item .team-inner .pop-overlay .team-pop .team-info .excerpt {
+  display: block;
+  padding: 5px;
+}
+
+.our-team-page-row .roll-team .team-item .team-inner .pop-overlay .team-pop .team-info .excerpt {
+  max-height: 110px;
+  overflow: hidden;
+}
+
+.our-team-page-row .roll-team .team-item .team-inner .pop-overlay .team-pop .team-info .team-social {
+  display: none;
+}
+
+/*
+  Contact Us Page
+*/
+.contact-us-page-contact-info-row i.fa {
+  font-size: 52px;
+  border-radius: 33px;
+  color: #b98d2f;
+  border: 1px solid #b98d2f;
+  margin-bottom: 20px;
+}
+
+.contact-us-page-contact-info-row i.fa.fa-map-marker {
+  padding: 5px 16px;
+}
+
+.contact-us-page-contact-info-row i.fa.fa-phone {
+  padding: 5px 11px;
+}
+
+.contact-us-page-contact-info-row i.fa.fa-print {
+  padding: 5px 7px;
+}
+
+.contact-us-page-contact-info-row .textwidget span {
+  font-size: 28px;
+}
+
+.contact-us-page-contact-form-row .wpcf7 h5 {
+  font-size: 52px;
+  font-family: 'Avenir-Light' !important;
+}
+
+.contact-us-page-contact-form-row .wpcf7 .wpcf7-form-control {
+  margin-bottom: 40px;
+  width: 100%;
+  background-color: #fff;
+  font-size: 32px;
+}
+
+.contact-us-page-contact-form-row .wpcf7 .wpcf7-form-control:focus {
+  outline: 0;
+}
+
+.contact-us-page-contact-form-row .wpcf7 .wpcf7-text {
+  height: initial;
+}
+
+.contact-us-page-contact-form-row .wpcf7 .wpcf7-submit {
+  background-color: #b98d2f;
+  border: 0;
+  font-size: 32px;
+  padding: 30px;
+  font-family: 'Avenir-Light' !important;
+}
+
+.contact-us-page-contact-form-row .wpcf7 .wpcf7-submit:hover {
+  color: #fff;
+}
+
+/*
+  Media Queries
+*/
+@media only screen and (max-width: 1200px) {
+  .panel-grid-cell {
+    width: 100% !important;
+  }
+
+  .panel-grid.panel-has-style > .panel-row-style.service-slogan,
+  .panel-grid.panel-no-style.service-slogan {
+    flex-wrap: wrap;
+  }
+
+  .service-slogan .service-slogan-primary-image .sow-image-container {
+    text-align: center;
+  }
+
+  .service-slogan .service-slogan-primary-content {
+    margin-top: 60px;
+  }
+
+  .service-slogan .service-slogan-primary-content .service-slogan-primary-text .widget-title {
+    font-size: 38px;
+    text-align: center;
+  }
+
+  .service-slogan .service-slogan-primary-content .service-slogan-primary-text .widget-title::after {
+    left: 50%;
+    transform: translate(-50%);
+    height: 3px;
+  }
+
+  .service-slogan .service-slogan-primary-content .service-slogan-primary-text .textwidget {
+    text-align: center;
+    font-size: 18px;
+  }
+
+  .service-slogan .service-slogan-primary-content .service-slogan-primary-action .roll-promobox.aside-style .promo-controls {
+    text-align: center;
+  }
+
+  .service-slogan .service-slogan-primary-content .service-slogan-primary-action .roll-promobox.aside-style .promo-controls .roll-button.border {
+    font-size: 22px;
+  }
+
+  .widget_sydney_child_services_with_details .services-container .service {
+    flex: 1 0 100%;
+    width: 100%;
+    height: 540px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .site-header {
+    position: fixed;
+    background-color: transparent !important;
+  }
+
+  .sow-headline-container {
+    top: 250px;
+  }
+
+  .sow-headline-container .sow-headline {
+    font-size: 40px;
+  }
+
+  .sow-headline-container .sow-sub-headline {
+    font-size: 24px;
+  }
+
+  .widget_sydney_child_facts .col-md-4 {
+    width: 100%;
+  }
+
+  .widget_sydney_child_facts .roll-counter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .widget_sydney_child_facts .roll-counter .fact-icon {
+    margin-right: 80px;
+  }
+
+  .widget_sydney_child_services .services-container .service.fullwidth .service-item.item:hover .service-pop-wrap {
+    width: 100%;
+  }
+
+  .widget_sydney_child_services .services-container .service.fullwidth .service-item.item:hover .service-pop-wrap .service-pop {
+    flex: 0 0 100%;
+    width: 100%;
+  }
+
+  .widget_sydney_child_services .services-container .service.fullwidth .service-item.item:hover .service-pop-wrap .service-pop-edge {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .our-team-page-row .roll-team .team-item {
+    width: 50%;
+  }
+}
+
+@media only screen and (max-width: 780px) {
+  .panel-grid-cell {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    margin-bottom: 0 !important;
+  }
+
+  .service-slogan .panel-grid-cell {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .site-header {
+    padding: 15px 0;
+  }
+
+  .site-header .site-logo-container > a {
+    position: absolute;
+    z-index: 500;
+    top: 70px;
+    left: 50%;
+    transform: translate(-50%);
+    display: block;
+  }
+
+  .site-header .btn-menu-container .btn-menu {
+    margin: 0 20px 0 auto;
+    height: 44px;
+  }
+
+  .our-team-page-row .roll-team .team-item {
+    width: 100%;
+  }
+
+  .widget_sydney_child_portfolio_with_details .roll-project.fullwidth .project-item .project-pop-wrap {
+    width: 100%;
+  }
+
+  .widget_sydney_child_portfolio_with_details .roll-project.fullwidth .project-item .thumbnail-container {
+    flex: 0 0 100%;
+    min-height: 298px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .sydney-hero-area .header-image img {
+    height: 340px;
+    width: auto;
+    max-width: initial;
+  }
+}
+
+@media (min-width: 1500px) {
+  .container {
+    width: 1470px;
+  }
+
+  .panel-grid {
+    max-width: 1440px;
+  }
+}
