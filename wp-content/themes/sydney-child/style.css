@@ -32,6 +32,7 @@ Text Domain: sydney
 }
 
 .site-header {
+  z-index: 1050;
   background-color: rgba(0, 0, 0, 0.5);
 }
 
@@ -181,6 +182,7 @@ h6.small-margin {
 .widget_sydney_child_services .services-container .service.fullwidth .service-item.item .service-pop-wrap .service-pop {
   flex: 0 0 calc(100% - 90px);
   width: calc(100% - 90px);
+  overflow: hidden;
 }
 .widget_sydney_child_services .services-container .service.fullwidth:nth-child(odd) .service-item.item .service-pop-wrap .service-pop {
   background-color: #dc3b41;
@@ -704,7 +706,7 @@ h6.small-margin {
   }
 
   .sow-headline-container {
-    top: 250px;
+    top: 150px;
   }
 
   .sow-headline-container .sow-headline {
