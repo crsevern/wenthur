@@ -151,7 +151,9 @@ function widget($args, $instance)
 		<?php if ($fact_one_primary != '') : ?>
 		<div class="col-md-4 col-sm-12">
 			<div class="roll-counter">
-				<img class="fact-icon" src="<?php echo $fact_one_icon; ?>">
+				<div class="fact-icon-container">
+					<img class="fact-icon" src="<?php echo $fact_one_icon; ?>">
+				</div>
 				<div class="fact-text">
 					<div class="numb-count" data-from="0" data-to="<?php echo $fact_one_max; ?>" data-speed="2000" data-waypoint-active="yes"><?php echo $fact_one_max; ?></div>
 					<div class="fact-name">
@@ -165,7 +167,9 @@ function widget($args, $instance)
 		<?php if ($fact_two_primary != '') : ?>
 		<div class="col-md-4 col-sm-12">
 			<div class="roll-counter">
-				<img class="fact-icon" src="<?php echo $fact_two_icon; ?>">
+				<div class="fact-icon-container">
+					<img class="fact-icon" src="<?php echo $fact_two_icon; ?>">
+				</div>
 				<div class="fact-text">
 					<div class="numb-count" data-from="0" data-to="<?php echo $fact_two_max; ?>" data-speed="2000" data-waypoint-active="yes"><?php echo $fact_two_max; ?></div>
 					<div class="fact-name">
@@ -179,7 +183,9 @@ function widget($args, $instance)
 		<?php if ($fact_three_primary != '') : ?>
 		<div class="col-md-4 col-sm-12">
 			<div class="roll-counter">
-				<img class="fact-icon" src="<?php echo $fact_three_icon; ?>">
+				<div class="fact-icon-container">
+					<img class="fact-icon" src="<?php echo $fact_three_icon; ?>">
+				</div>
 				<div class="fact-text">
 					<div class="numb-count" data-from="0" data-to="<?php echo $fact_three_max; ?>" data-speed="2000" data-waypoint-active="yes"><?php echo $fact_three_max; ?></div>
 					<div class="fact-name">

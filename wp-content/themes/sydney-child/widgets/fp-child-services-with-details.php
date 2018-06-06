@@ -100,15 +100,17 @@ function widget($args, $instance)
 				?>
 				<div class="service">
 					<div class="service-item item">
-						<div class="service-pop-wrap">
-							<div class="service-pop">
-								<div class="service-title"><?php echo get_the_title(get_the_ID()); ?></div>
-								<div class="service-content"><?php echo $content ?></div>
-								<div class="service-bottom-decorator"></div>
+						<a href="<?php echo the_permalink(get_the_ID()) ?>">
+							<div class="service-pop-wrap">
+								<div class="service-pop">
+									<div class="service-title"><?php echo get_the_title(get_the_ID()); ?></div>
+									<div class="service-content"><?php echo $content ?></div>
+									<div class="service-bottom-decorator"></div>
+								</div>
+								<div class="service-pop-edge"></div>	
 							</div>
-							<div class="service-pop-edge"></div>	
-						</div>
-						<div class="service-thumbnail" style="background-image: url(<?php echo get_the_post_thumbnail_url(get_the_ID()); ?>)"></div>
+							<div class="service-thumbnail" style="background-image: url(<?php echo get_the_post_thumbnail_url(get_the_ID()); ?>)"></div>
+						</a>
 					</div>
 				</div>
 			<?php endwhile; ?>

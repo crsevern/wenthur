@@ -101,21 +101,24 @@ class Sydney_Child_Services extends WP_Widget
 				?>
 				<div class="service fullwidth">
 					<div class="service-item item">
-						<div class="service-pop-wrap">
-							<?php if (($index % 2) == 1) { ?>
-								<div class="service-pop">
-									<div class="service-title"><?php echo get_the_title(get_the_ID()); ?></div>
-									<div class="service-content"><?php echo $content ?></div>
-								</div>
-								<div class="service-pop-edge"></div>
-							<?php } else { ?>
-								<div class="service-pop-edge"></div>
-								<div class="service-pop">
-									<div class="service-title"><?php echo get_the_title(get_the_ID()); ?></div>
-									<div class="service-content"><?php echo $content ?></div>
-								</div>
-							<?php } ?>
-						</div>
+						<a href="<?php echo the_permalink(get_the_ID()) ?>">
+							<div class="service-pop-bg"></div>
+							<div class="service-pop-wrap">
+								<?php if (($index % 2) == 1) { ?>
+									<div class="service-pop">
+										<div class="service-title"><?php echo get_the_title(get_the_ID()); ?></div>
+										<div class="service-content"><?php echo $content ?></div>
+									</div>
+									<div class="service-pop-edge"></div>
+								<?php } else { ?>
+									<div class="service-pop-edge"></div>
+									<div class="service-pop">
+										<div class="service-title"><?php echo get_the_title(get_the_ID()); ?></div>
+										<div class="service-content"><?php echo $content ?></div>
+									</div>
+								<?php } ?>
+							</div>
+						</a>
 						<div class="service-thumbnail" style="background-image: url(<?php echo get_the_post_thumbnail_url(get_the_ID()); ?>)"></div>
 					</div>
 				</div>

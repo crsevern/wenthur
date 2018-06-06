@@ -78,6 +78,49 @@ h6.small-margin {
   font-size: 40px;
 }
 
+.service-slogan-primary-image .sow-image-container {
+  position: relative;
+}
+
+.so-panel.widget_media_image .panel-widget-style-bg {
+  position: relative;
+}
+
+.so-panel.widget_media_image .panel-widget-style-bg::after {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 100;
+  display: none;
+  content: '';
+}
+
+.so-panel.widget_media_image .panel-widget-style-bg:hover::after {
+  display: block;
+}
+
+.so-panel.widget_media_image .panel-widget-style-bg .image {
+  width: 100%;
+}
+
+.service-slogan-primary-image .sow-image-container::after {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 2000;
+  display: none;
+  content: '';
+}
+.service-slogan-primary-image .sow-image-container:hover::after {
+	display: block;
+}
+
 .service-slogan-primary-image .sow-image-container img.so-widget-image {
   height: 589px;
   width: auto;
@@ -124,6 +167,10 @@ h6.small-margin {
   color: #b98d2f;
 }
 
+.widget_sydney_child_facts .roll-counter .fact-icon-container {
+  text-align: center;
+}
+
 .widget_sydney_child_facts .roll-counter .fact-icon {
   height: 100px;
 }
@@ -153,7 +200,22 @@ h6.small-margin {
 .widget_sydney_child_services .services-container .service.fullwidth .service-item.item {
   position: relative;
   width: 100%;
-  height: 500px;
+  height: 700px;
+}
+
+.widget_sydney_child_services .services-container .service.fullwidth .service-item.item .service-pop-bg {
+  position: absolute;
+  z-index: 999;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: none;
+}
+
+.widget_sydney_child_services .services-container .service.fullwidth .service-item.item:hover .service-pop-bg {
+  display: block;
 }
 
 .widget_sydney_child_services .services-container .service.fullwidth .service-item.item .service-pop-wrap {
@@ -201,29 +263,33 @@ h6.small-margin {
 }
 
 .widget_sydney_child_services .services-container .service.fullwidth:nth-child(odd) .service-item.item .service-pop-wrap .service-pop-edge {
-  border-bottom: 500px solid transparent;
+  border-bottom: 700px solid transparent;
   border-left: 90px solid #dc3b41;
 }
 
 .widget_sydney_child_services .services-container .service.fullwidth:nth-child(even) .service-item.item .service-pop-wrap .service-pop-edge {
-  border-top: 500px solid transparent;
+  border-top: 700px solid transparent;
   border-right: 90px solid #001688;
 }
 
 .widget_sydney_child_services .services-container .service.fullwidth .service-item.item .service-pop-wrap .service-pop .service-title {
   text-align: center;
-  width: 500px;
+  width: 700px;
   font-size: 40px;
   transform-origin: top left;
   font-family: 'Baskerville' !important;
+  padding: 0 30px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .widget_sydney_child_services .services-container .service.fullwidth:nth-child(odd) .service-item.item .service-pop-wrap .service-pop .service-title {
-  transform: translate(40px, 500px) rotate(-90deg);
+  transform: translate(40px, 700px) rotate(-90deg);
 }
 
 .widget_sydney_child_services .services-container .service.fullwidth:nth-child(even) .service-item.item .service-pop-wrap .service-pop .service-title {
-  transform: translate(20px, 500px) rotate(-90deg);
+  transform: translate(20px, 700px) rotate(-90deg);
 }
 
 .widget_sydney_child_services .services-container .service.fullwidth .service-item.item .service-pop-wrap .service-pop .service-content {
@@ -243,7 +309,7 @@ h6.small-margin {
 
 .widget_sydney_child_services .services-container .service.fullwidth .service-item.item .service-thumbnail {
   position: absolute;
-  z-index: 999;
+  z-index: 998;
   left: 0;
   top: 0;
   width: 100%;
@@ -662,6 +728,8 @@ h6.small-margin {
 
   .service-slogan .service-slogan-primary-image .sow-image-container {
     text-align: center;
+    width: 462px;
+    margin: 0 auto;
   }
 
   .service-slogan .service-slogan-primary-content {
@@ -727,9 +795,20 @@ h6.small-margin {
     justify-content: center;
   }
 
+  .widget_sydney_child_facts .roll-counter .fact-icon-container {
+    flex: 1 0 40%;
+    text-align: right;
+  }
+
   .widget_sydney_child_facts .roll-counter .fact-icon {
     margin-right: 80px;
   }
+
+  .widget_sydney_child_facts .roll-counter .fact-text {
+    flex: 1 0 60%;
+    justify-content: flex-start;
+  }
+
 
   .widget_sydney_child_services .services-container .service.fullwidth .service-item.item:hover .service-pop-wrap {
     width: 100%;
@@ -803,6 +882,116 @@ h6.small-margin {
     width: auto;
     max-width: initial;
   }
+
+  .sow-headline-container {
+    top: 80px;
+  }
+
+  .sow-headline-container .sow-headline {
+    font-size: 28px;
+  }
+
+  .sow-headline-container .sow-sub-headline {
+    font-size: 18px;
+  }
+
+  .widget_sydney_child_employees .roll-team .team-item .team-inner .pop-overlay {
+    width: 100%;
+    height: 100%;
+  }
+  .service-slogan .service-slogan-primary-content .service-slogan-primary-text .widget-title::after {
+    transform: translate(-40%);
+  }
+  .service-slogan .service-slogan-primary-image .sow-image-container {
+    text-align: center;
+    width: 341px;
+    margin: 0 auto;
+  }
+
+  .service-slogan .service-slogan-primary-content .service-slogan-primary-action .roll-promobox.aside-style .promo-controls .roll-button.border {
+    font-size: 14px;
+  }
+
+  .widget_sydney_child_facts .roll-counter .fact-icon {
+    margin-right: 30px;
+    height: 50px;
+  }
+  
+  .widget_sydney_child_services .services-container .service.fullwidth .service-item.item .service-pop-wrap .service-pop .service-title {
+    font-size: 42px;
+  }
+  .widget_sydney_child_facts .roll-counter .fact-text .numb-count {
+    font-size: 50px;
+    margin-right: 10px;    
+  }
+  .widget_sydney_child_services_with_details .services-container .service .service-item.item .service-pop-wrap .service-pop .service-title {
+    font-size: 18px;
+    padding-top: 10px;
+  }
+
+  .widget_sydney_child_services .services-container .service.fullwidth .service-item.item .service-pop-wrap .service-pop .service-content {
+    font-size: 18px;
+  }
+
+  .widget_sydney_child_services_with_details .services-container .service .service-item.item .service-pop-wrap .service-pop .service-content {
+    font-size: 18px;
+  }
+
+  .widget_sydney_child_portfolio_with_details .roll-project.fullwidth .project-item {
+    width: 100%;
+    float: none;
+    position: relative;
+    max-height: 1000px;
+    overflow: hidden;
+  }
+  
+  .widget_sydney_child_portfolio_with_details .roll-project.fullwidth .project-item .project-content p {
+    font-size: 18px;
+  }
+
+  .contact-us-page-contact-form-row .wpcf7 h5 {
+    font-size: 30px;
+    font-family: 'Avenir-Light' !important;  
+  }
+
+  .widget_sydney_child_facts .roll-counter .fact-text .fact-name {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .service-slogan .service-slogan-primary-image .sow-image-container {
+    text-align: center;
+    width: 260px;
+    margin: 0 auto;
+  }
+
+  .sow-headline-container .sow-headline {
+    font-size: 22px;
+  }
+
+  .sow-headline-container .sow-sub-headline {
+    font-size: 14px;
+  }
+
+  .service-slogan-primary-content .service-slogan-primary-action .roll-button.border {
+    padding: 10px 30px;
+  }
+  .service-slogan .service-slogan-primary-content .service-slogan-primary-action .roll-promobox.aside-style .promo-controls .roll-button.border {
+    font-size: 12px;
+  }
+
+  .widget_sydney_child_services .services-container .service.fullwidth .service-item.item .service-pop-wrap .service-pop .service-content {
+    font-size: 14px;
+  }
+
+  .widget_sydney_child_services_with_details .services-container .service .service-item.item .service-pop-wrap .service-pop .service-content {
+    font-size: 14px;
+  }
+
+  .contact-us-page-contact-form-row .wpcf7 h5 {
+    font-size: 24px;
+  }
 }
 
 @media (min-width: 1500px) {
@@ -812,5 +1001,11 @@ h6.small-margin {
 
   .panel-grid {
     max-width: 1440px;
+  }
+
+  .service-slogan .service-slogan-primary-image .sow-image-container {
+    text-align: center;
+    width: 461px;
+    margin: 0 auto;
   }
 }
