@@ -95,7 +95,7 @@ h6.small-margin {
   width: 100%;
   background-color: rgba(0, 0, 0, 0.5);
   z-index: 100;
-  display: none;
+  display: block;
   content: '';
 }
 
