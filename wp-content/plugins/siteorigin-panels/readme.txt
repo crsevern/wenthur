@@ -2,8 +2,8 @@
 Tags: page builder, responsive, widget, widgets, builder, page, admin, gallery, content, cms, pages, post, css, layout, grid
 Requires at least: 4.4
 Tested up to: 4.9
-Stable tag: 2.6.8
-Build time: 2018-06-05T11:15:55+02:00
+Stable tag: 2.6.9
+Build time: 2018-06-07T22:18:52+02:00
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl.html
 Donate link: https://siteorigin.com/downloads/contribution/
@@ -95,6 +95,9 @@ Page Builder is actively developed and updated, so generally I'd recommend that 
 We've tried to ensure that Page Builder is compatible with most plugin widgets. It's best to just download Page Builder and test for yourself.
 
 == Changelog ==
+
+= 2.6.9 - 7 June 2018 =
+* Changed dashboard feed URL to use cloudfront for caching.
 
 = 2.6.8 - 5 June 2018 =
 * Remove learn dialogs.

@@ -18,6 +18,12 @@ add_action('wp_enqueue_scripts', 'sydney_child_enqueue');
 
 /* CUSTOM FUNCTIONS */
 
+function sydney_child_enqueue_jquery_colorbox() {
+    wp_enqueue_style( 'jquery_colorbox_style', includes_url() . 'css/colorbox/colorbox.css' );
+    wp_enqueue_script( 'jquery_colorbox_script', includes_url() . 'js/jquery/jquery.colorbox-min.js' );
+}
+add_action('wp_enqueue_scripts', 'sydney_child_enqueue_jquery_colorbox');
+
 function sydney_child_widgets_init()
 {
     if (defined('SITEORIGIN_PANELS_VERSION')) {
