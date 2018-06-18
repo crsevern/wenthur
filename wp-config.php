@@ -20,13 +20,13 @@
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define('DB_NAME', 'wenthur');
+define('DB_NAME', 'wenthurl_wenthur');
 
 /** MySQL database username */
-define('DB_USER', 'root');
+define('DB_USER', 'wenthurl_wenthuradmin');
 
 /** MySQL database password */
-define('DB_PASSWORD', '');
+define('DB_PASSWORD', 'BXqxDU3*kvw?--Yz');
 
 /** MySQL hostname */
 define('DB_HOST', 'localhost');
@@ -85,9 +85,9 @@ define('WP_DEBUG', false);
 if ( !defined('ABSPATH') )
 	define('ABSPATH', dirname(__FILE__) . '/');
 
-@ini_set( 'upload_max_size' , '20M' );
-@ini_set( 'post_max_size', '13M');
-@ini_set( 'memory_limit', '15M' );
+@ini_set( 'upload_max_size' , '100M' );
+@ini_set( 'post_max_size', '50M');
+@ini_set( 'memory_limit', '50M' );
 
 /** Sets up WordPress vars and included files. */
 require_once(ABSPATH . 'wp-settings.php');
